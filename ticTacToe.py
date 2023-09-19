@@ -48,7 +48,7 @@ class ticTacToe:
         c = 0
         for i in range(3): 
             for j in range(3):
-                if self.board[i][j] != " ":
+                if self.board[i][j] == " ":
                     c += 1
                     break
         if c == 0: 
